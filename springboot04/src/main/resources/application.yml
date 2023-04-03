@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shopping?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 880910
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+
